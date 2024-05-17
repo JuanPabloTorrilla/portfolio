@@ -7,6 +7,10 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
+    AdArmrecording: typeof import('@kalimahapps/vue-icons/ad')['AdArmrecording']
+    BsWindow: typeof import('@kalimahapps/vue-icons/bs')['BsWindow']
+    BxWindowClose: typeof import('@kalimahapps/vue-icons/bx')['BxWindowClose']
+    FaRegWindowMaximize: typeof import('@kalimahapps/vue-icons/fa')['FaRegWindowMaximize']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
   }
 }
