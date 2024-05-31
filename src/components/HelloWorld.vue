@@ -122,7 +122,7 @@
                   <v-card v-for="estudio in formacion" :key="estudio.title">
                     <v-sheet class="border rounded pa-2 d-flex flex-column items-center align-center">
                       <p class="text-subtitle-1 text-center">{{estudio.title}}</p>
-                      <v-sheet><v-img :src="estudio.img" style="border-radius: 50%; width: 80px;"></v-img></v-sheet>
+                      <v-sheet><v-img :src=estudio.img style="border-radius: 50%; width: 80px;"></v-img></v-sheet>
                       <v-card-actions>
                         <a :href="estudio.link" target="_blank"> {{estudio.ente}}</a>
                       </v-card-actions>
