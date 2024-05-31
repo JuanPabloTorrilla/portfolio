@@ -242,7 +242,7 @@
         {title: 'Frontend', link: 'https://app.aluracursos.com/user/juan1309/fullCertificate/545282cd7645382a76250c5895a09f41', img: "@/assets/one.png", ente: 'Alura'},
         ], 
       tecnologias: [
-        {title: 'HTML', link: 'https://www.linkedin.com/in/juanpablo-torrilla-picerno/', img: "@/assets/html-5.svg"},
+        {title: 'HTML', link: 'https://www.linkedin.com/in/juanpablo-torrilla-picerno/', img: "/assets/html-5.svg"},
         {title: 'CSS', link: 'https://www.linkedin.com/in/juanpablo-torrilla-picerno/', img: "@/assets/css-3.svg"},
         {title: 'Javascript', link: 'https://www.linkedin.com/in/juanpablo-torrilla-picerno/', img: "@/assets/javascript.svg"},
         {title: 'Vue', link: 'https://www.linkedin.com/in/juanpablo-torrilla-picerno/', img: "@/assets/vue.svg"},
